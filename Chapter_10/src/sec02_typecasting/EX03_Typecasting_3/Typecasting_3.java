@@ -21,13 +21,13 @@ public class Typecasting_3 {
 			B b = (B)aa;
 			System.out.println("aa를 B로 캐스팅하였습니다.");
 		} else {
-			System.out.println("aa는 B 타입으로 캐스팅이 불가!!!");
+			System.out.println("aa는 B 타입으로 캐스팅이 불가능!!!");
 		}			
 		if(ab instanceof B) {
 			B b = (B)ab;
 			System.out.println("ab를 B로 캐스팅하였습니다.");
 		} else {
-			System.out.println("ab는 B 타입으로 캐스팅이 불가!!!");
+			System.out.println("ab는 B 타입으로 캐스팅이 불가능!!!");
 		}		
 		if ("안녕" instanceof String) {
 			System.out.println("\"안녕\"은 String 클래스입니다");
