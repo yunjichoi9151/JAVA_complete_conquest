@@ -32,7 +32,7 @@ public class PrintStreamExample {
 			ps.println();
 		} catch(IOException e) {}
 		
-		// 4. PrintStream ps = System.out
+		// 3. PrintStream ps = System.out
 		try(OutputStream os2 = System.out;
 			PrintStream ps = new PrintStream(os2)){
 			
